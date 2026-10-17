@@ -11,6 +11,15 @@
 - **Claude Code:** `cp -R skills/seedance-russian-speech ~/.claude/skills/` (или в `.claude/skills/` проекта).
 - **Claude.ai / Desktop:** Settings → Capabilities → Skills → загрузить `dist/seedance-russian-speech.skill`.
 
+### `skills/ai-video-edit`
+
+ИИ-монтаж с Claude от записи до рендера: расшифровка GigaAM v3, автонарезка дублей и пауз, таблица покрытия, сборка в DaVinci Resolve Studio через MCP (или FCPXML), раскладка вставок скриптом по словам, плашки HyperFrames на пружинах, −16 LUFS, проверка стыков. Сырой рез говорящей головы через Whisper — `talking-head-edit`.
+
+Установка:
+
+- **Claude Code:** `cp -R skills/ai-video-edit ~/.claude/skills/` (или в `.claude/skills/` проекта).
+- **Claude.ai / Desktop:** Settings → Capabilities → Skills → загрузить `dist/ai-video-edit.skill`.
+
 ## Готовые Seedance-скиллы на GitHub (проверено 2026-10-10)
 
 | Репозиторий | Версии | Русский | Комментарий |
